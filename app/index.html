@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Исток</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="header__top">
+            <p>Добавить текст описания магазина что бы забить простарнство</p>
+
+            <ul>
+                <li><a href="tel:+78005001113" class="phone">8800-500-11-13</a></li>
+
+                <li><a href="#" class="btn__callback modal-open">Заказать обратный звонок</a></li>
+
+                <li class="city__wrapper">
+                    <span>Казань</span>
+                    <ul class="city__dropdown drop__menu">
+                        <li><a href="#">Казань</a></li>
+                        <li><a href="#">Москва</a></li>
+                        <li><a href="#">Казань</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header__center">
+            <a href="index.html" class="logo"><img src="img/logo.png" class="img-responsive" alt=""></a>
+
+            <form class="form__search" method="POST" action="">
+                <label>
+                    <input type="text" name="search" placeholder="Поиск..." required>
+                    <button type="submit"><img src="img/search.png" class="img-responsive" alt=""></button>
+                </label>
+            </form>
+            <div class="cabinet__wrapper">
+                <ul class="image">
+                    <li><img src="img/question.png" class="img-responsive" alt="">
+                        <div class="drop__menu">
+                            <h3>Помощь</h3>
+                            <ul>
+                                <li><a href="#">Доставка и оплата</a></li>
+                                <li><a href="#">Информация по заказу</a></li>
+                                <li><a href="#">Как сделать заказ</a></li>
+                                <li><a href="#">Возврат и обмен товара</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="img/basket.png" class="img-responsive" alt=""></a></li>
+                    <li><img src="img/user.png" class="img-responsive" alt="">
+                        <div class="drop__menu">
+                            <h3>Мой кабинет</h3>
+                            <ul>
+                                <li><a href="#">Мои данные</a></li>
+                                <li><a href="#">История заказов</a></li>
+                                <li><a href="#">Настройки</a></li>
+                                <li><a href="#">Подписки на рассылки</a></li>
+                                <li class="user__links"><a href="#">Войти</a></li>
+                                <li class="user__links"><a href="#">Регистрация</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="text">
+                    <a href="#">Помощь</a>
+                    <a href="#">Корзина</a>
+                    <a href="#">Войти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__menu">
+            <div id="mobile__menu">
+                <i class="fa fa-th" aria-hidden="true"></i>
+                <span>Меню</span>
+            </div>
+            <ul class="menu">
+                <li class="list__drop"><a href="#"><img src="img/burger.png" class="img-responsive" alt="">
+                    <p>Каталог</p></a>
+                    <ul class="drop__menu">
+                        <li><a href="#">Меню1</a></li>
+                        <li><a href="#">Меню2</a></li>
+                        <li><a href="#">Меню3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><img src="img/icon1.png" class="img-responsive" alt="">
+                    <p>Аккумуляторы</p></a>
+                    <ul class="drop__menu">
+                        <li><a href="#">Меню1</a></li>
+                        <li><a href="#">Меню2</a></li>
+                        <li><a href="#">Меню3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><img src="img/icon2.png" class="img-responsive" alt="">
+                    <p>Автомасла</p></a>
+                    <ul class="drop__menu">
+                        <li><a href="#">список</a></li>
+                        <li><a href="#">список</a></li>
+                        <li><a href="#">список</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><img src="img/icon3.png" class="img-responsive" alt="">
+                    <p>Фильтра</p></a>
+                    <ul class="drop__menu">
+                        <li><a href="#">список</a></li>
+                        <li><a href="#">список</a></li>
+                        <li><a href="#">список</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><img src="img/icon4.png" class="img-responsive" alt="">
+                    <p>Спец.жидкости</p></a>
+                    <ul class="drop__menu">
+                        <li><a href="#">список</a></li>
+                        <li><a href="#">список</a></li>
+                        <li><a href="#">список</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><img src="img/icon5.png" class="img-responsive" alt="">
+                    <p>з/у устройства</p></a>
+                    <ul class="drop__menu">
+                        <li><a href="#">список1</a></li>
+                        <li><a href="#">список1</a></li>
+                        <li><a href="#">список1</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><img src="img/icon6.png" class="img-responsive" alt="">
+                    <p>Акции</p></a>
+                    <ul class="drop__menu">
+                        <li><a href="#">список2</a></li>
+                        <li><a href="#">список2</a></li>
+                        <li><a href="#">список2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="content">
+    <section class="main__banner">
+        <p>баннер</p>
+    </section>
+
+    <section class="filtr__wrapper">
+        <div class="container">
+            <div class="filtr__wrapper-left">
+                <div class="banner__wrap">
+                    <div class="banner ban-max">
+                        <p>баннер или фото</p>
+                    </div>
+                    <div class="banner ban-min">
+                        <p>баннер или фото</p>
+                    </div>
+                </div>
+                <div class="text__wrap">
+                    <h2>Выберите подходящее масло для вашего автомобиля</h2>
+                    <p>Поиск Вашего автомобиля по VIN</p>
+                    <form action="" method="POST" class="form form__vin">
+                        <input type="text" name="vin" placeholder="Введите ваш VIN:">
+                        <button type="submit" class="btn__accent">Посмотреть</button>
+                    </form>
+
+                    <form action="" method="POST" class="form form__all">
+                        <div class="line">
+                            <label>
+                                <span>Марка</span>
+                                <input name="marc" type="text" placeholder="Введите марку">
+                            </label>
+
+                            <label>
+                                <span>Год</span>
+                                <input name="year" type="text" placeholder="Введите год выпуска">
+                            </label>
+                        </div>
+
+                        <div class="line">
+                            <label>
+                                <span>Модель</span>
+                                <input name="model" type="text" placeholder="Введите модель">
+                            </label>
+
+                            <label>
+                                <span>Тип топлива</span>
+                                <input name="fuel" type="text" placeholder="Введите тип топлива">
+                            </label>
+                        </div>
+
+                        <div class="line">
+                            <label>
+                                <span>Объем двигателя</span>
+                                <input name="volume" type="text" placeholder="Введите объем">
+                            </label>
+
+                            <label>
+                                <span>Выбор автомобиля</span>
+                                <input name="year" type="text" placeholder="Введите автомобиль">
+                            </label>
+                        </div>
+                        <button type="submit" class="btn__accent">Посмотреть</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="filtr__wrapper-right">
+                <div class="banner__wrap">
+                    <div class="banner ban-min">
+                        <p>баннер
+                            или фото</p>
+                    </div>
+                    <div class="banner ban-max">
+                        <p>баннер
+                            или фото</p>
+                    </div>
+                </div>
+                <div class="text__wrap">
+                    <h2>Выберите подходящее масло для вашего автомобиля</h2>
+                    <p>Поиск Вашего автомобиля по VIN</p>
+                    <form action="" method="POST" class="form form__vin">
+                        <input type="text" name="vin" placeholder="Введите ваш VIN:">
+                        <button type="submit" class="btn__accent">Посмотреть</button>
+                    </form>
+
+                    <form action="" method="POST" class="form form__all">
+                        <div class="line">
+                            <label>
+                                <span>Марка</span>
+                                <input name="marc" type="text" placeholder="Введите марку">
+                            </label>
+
+                            <label>
+                                <span>Год</span>
+                                <input name="year" type="text" placeholder="Введите год выпуска">
+                            </label>
+                        </div>
+
+                        <div class="line">
+                            <label>
+                                <span>Модель</span>
+                                <input name="model" type="text" placeholder="Введите модель">
+                            </label>
+
+                            <label>
+                                <span>Тип топлива</span>
+                                <input name="fuel" type="text" placeholder="Введите тип топлива">
+                            </label>
+                        </div>
+
+                        <div class="line">
+                            <label>
+                                <span>Объем двигателя</span>
+                                <input name="volume" type="text" placeholder="Введите объем">
+                            </label>
+
+                            <label>
+                                <span>Выбор автомобиля</span>
+                                <input name="year" type="text" placeholder="Введите автомобиль">
+                            </label>
+                        </div>
+                        <button type="submit" class="btn__accent">Посмотреть</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers">
+        <div class="container">
+            <h2>лучшие предложения</h2>
+
+            <div class="offers__content slider">
+
+                <div class="slider__item">
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                    <div class="product__item">
+                        <a href="#" class="image"><img src="img/product1.png" class="img-responsive" alt=""></a>
+                        <a href="#" class="title">
+                            <span>Edge</span>
+                            <p>Professional</p>
+                        </a>
+                        <div class="price">
+                            <div class="old-price">1500р</div>
+                            <div class="new-price">1000р</div>
+                        </div>
+                        <div class="in-stock"><p>В НАЛИЧИИ</p></div>
+                        <a href="#" class="add__cart">Добавить в корзину</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="selection">
+        <div class="container">
+            <h2>Подбор аккумулятора специалистом</h2>
+            <div class="text">
+                <p>Оставьте номер телефона и наш консультант позвонит, чтобы подобрать аккумулятор для Вашего
+                    автомобиля:</p>
+                <form action="" method="post" class="form">
+                    <label>
+                        <img src="img/phone.png" class="img-responsive" alt="">
+                        <input type="text" name="phone" class="phone" placeholder="Введите ваш номер телефона:"
+                               required>
+                        <button type="submit" class="btn__accent">Отправить</button>
+                    </label>
+                    <label class="check">
+                        <input type="checkbox" name="check" required>
+                        <span>Я даю согласие на обработку и использование своих персональных данных ООО «ИСТОК-ПЛЮС»</span>
+                    </label>
+                </form>
+                <span>Мы работаем в будни с 8:00 до 18:00, в выходные с 08:00 до 14:00</span>
+            </div>
+            <div class="image"><img src="img/product2.png" class="img-responsive" alt=""></div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <h2>Наши преимущества</h2>
+            <div class="advantages__content">
+                <div class="item">
+                    <div class="image"><img src="img/adv1.png" class="img-responsive" alt=""></div>
+                    <h3>Стабильность</h3>
+                    <p>Более 19 лет на рынке</p>
+                </div>
+
+                <div class="item">
+                    <div class="image"><img src="img/adv2.png" class="img-responsive" alt=""></div>
+                    <h3>Широкий ассортимент</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua</p>
+                </div>
+
+                <div class="item">
+                    <div class="image"><img src="img/adv3.png" class="img-responsive" alt=""></div>
+                    <h3>География-магазины</h3>
+                    <p>Магазины в 20 городах</p>
+                </div>
+
+                <div class="item">
+                    <div class="image"><img src="img/adv4.png" class="img-responsive" alt=""></div>
+                    <h3>Надёжность</h3>
+                    <p>Закупки напрямую у завода</p>
+                </div>
+
+                <div class="item">
+                    <div class="image"><img src="img/adv5.png" class="img-responsive" alt=""></div>
+                    <h3>Цены</h3>
+                    <p>Лучшие предложения на интернет-магазине</p>
+                </div>
+
+                <div class="item">
+                    <div class="image"><img src="img/adv6.png" class="img-responsive" alt=""></div>
+                    <h3>Преимущество</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands">
+        <h2>БРЕНДЫ</h2>
+        <div class="brands__content brands__content-slider">
+            <a href="#"><img src="img/brand1.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="img/brand1.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="img/brand1.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="img/brand1.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="img/brand1.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="img/brand1.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="img/brand1.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="img/brand1.png" class="img-responsive" alt=""></a>
+        </div>
+    </section>
+
+    <section class="s__news">
+        <div class="container">
+            <div class="block__news">
+                <div class="news__left">
+                    <h2>НОВОСТИ</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua</p>
+                    <a href="#" class="btn__accent">
+                        Узнать все новости
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="news__right">
+                    <div class="title">
+                        <h4>Новость</h4>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+
+                    <div class="news__slider">
+                        <div class="item">
+                            <div class="image"></div>
+                            <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image"></div>
+                            <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image"></div>
+                            <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image"></div>
+                            <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block__sale">
+                <h2>акции</h2>
+                <p>Подпишитесь что бы узнать о всех акциях первым</p>
+                <form action="" method="post" class="form form__subscribe">
+                    <label>
+                        <input type="text" name="mail" placeholder="Введите ваш E-mail" required>
+                        <span><img src="img/mail.png" class="img-responsive" alt=""></span>
+                    </label>
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="footer__top">
+        <div class="container">
+            <div class="payments">
+                <h2>Способы оплаты:</h2>
+                <div class="payments__wrapper">
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+
+            <ul class="footer__menu">
+                <li><a href="#">О КОМПАНИИ</a></li>
+                <li><a href="#">НОВОСТИ</a></li>
+                <li><a href="#">СОВЕТЫ ПО ВЫБОРУ</a></li>
+                <li><a href="#">СТАТЬИ</a></li>
+                <li><a href="#">ПРАВИЛА ТОРГОВЛИ</a></li>
+                <li><a href="#">ВАКАНСИИ</a></li>
+                <li><a href="#">ЛУЧШИЕ СОТРУДНИКИ</a></li>
+            </ul>
+
+            <div class="footer__reviews">
+                <h2>Отзывы на яндекс.маркете:</h2>
+                <div class="bl"></div>
+
+                <h2>Подписаться на новости:</h2>
+
+                <form action="" method="post" class="form form__subscribe">
+                    <label>
+                        <input type="text" name="mail" placeholder="Введите ваш E-mail" required>
+                        <span><img src="img/mail.png" class="img-responsive" alt=""></span>
+                    </label>
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+
+            <div class="footer__social">
+                <h2>В соц сетях:</h2>
+                <ul>
+                    <li><a href="#" class="soc"></a></li>
+                    <li><a href="#" class="soc"></a></li>
+                    <li><a href="#" class="soc"></a></li>
+                    <li><a href="#" class="soc"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__copy">
+        <div class="container">
+            <p>1999 - 2018 © ООО «ИСТОК-ПЛЮС». Все права защищены. Информация на сайте istok-akb.ru не является
+                публичной
+                офертой. Указанные цены действуют только при оформлении заказа через интернет-магазин istok-akb.ru.</p>
+            <p>Обнаружив ошибку или неточность в тексте или описании товара, выделите ее и нажмите Ctrl + Enter.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>

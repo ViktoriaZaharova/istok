@@ -1,0 +1,382 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width : 1550px)
+  header
+    .container
+      .header__top
+        ul
+          li
+            padding: 20px 30px
+
+  .container
+    width: 100%
+    padding: 0 10px
+
+  .filtr__wrapper
+    .container
+      .filtr__wrapper-left, .filtr__wrapper-right
+        flex-direction: column
+        .text__wrap
+          width: 100%
+        .banner__wrap
+          width: 100%
+          .banner
+            width: 100%
+
+  .brands
+    padding: 40px 0 50px
+    .brands__content
+      justify-content: space-around
+      a
+        margin: 0 10px 20px
+    .brands__content-slider
+      .slick-dots
+        bottom: -30px
+
+@media screen and (max-width: 1430px)
+  .menu
+    width: 100%
+    li
+      a
+        p
+          font-size: 16px
+
+  .s__news
+    .container
+      width: 100%
+      .block__news
+        flex-direction: column
+        width: calc(100% - 470px)
+        .news__left
+          width: 100%
+          padding: 20px 30px
+          box-sizing: border-box
+        .news__right
+          width: 100%
+
+@media only screen and (max-width : 1380px)
+  .footer__menu
+    padding: 0 0 0 40px
+
+  .footer__reviews
+    padding: 0 40px 0 0
+  header
+    .container
+      .header__top
+        flex-direction: column
+        ul
+          order: -1
+          width: 100%
+          justify-content: space-between
+          margin: 0 0 10px 0
+          li
+            padding: 10px 20px
+
+  .selection
+    .container
+      padding: 59px 0 52px 59px
+      .image
+        right: 0
+
+  .advantages
+    .container
+      width: 100%
+      padding: 0 10px
+
+@media screen and (max-width: 1240px)
+  .selection
+    .container
+      width: 99%
+      .image
+        width: 400px
+        bottom: 0
+  header
+    .container
+      .header__center
+        .logo
+          order: -2
+        .cabinet__wrapper
+          order: -1
+
+  .form__search
+    width: 100%
+    margin: 10px auto 0
+    label
+      width: 100%
+
+  .offers
+    .container
+      .offers__content
+        width: 100%
+        padding: 0 15px
+        .slider__item
+          justify-content: space-around
+
+@media screen and (max-width: 1100px)
+  footer
+    .footer__top
+      .container
+        padding: 38px 10px 70px
+
+  .footer__menu
+    li
+      a
+        font-size: 16px
+        line-height: 26px
+
+  .selection
+    .container
+      flex-direction: column
+      align-items: center
+      padding: 50px 50px 0
+      .image
+        position: relative
+        margin: 10px auto 0
+      .text
+        width: 100%
+
+  .advantages
+    .container
+      .advantages__content
+        justify-content: space-around
+        margin: 40px 0 0 0
+
+@media screen and (max-width: 930px)
+  .footer__menu, .footer__reviews
+    border: none
+    padding: 0
+
+  .footer__reviews
+    .bl
+      margin: 0 0 20px 0
+
+  .footer__menu
+    margin: 0 0 20px 0
+
+  .s__news
+    .container
+      padding: 70px 0 0
+      flex-direction: column
+      align-items: center
+      .block__news, .block__sale
+        width: 100%
+      .block__sale
+        margin: 20px 0 0 0
+  .filtr__wrapper
+    .container
+      .filtr__wrapper-left, .filtr__wrapper-right
+        .text__wrap
+          .form__vin
+            flex-direction: column
+            input
+              width: 100%
+              margin: 0 0 10px 0
+            button
+              width: 100%
+          .form__all
+            .line
+              flex-direction: column
+              label
+                width: 100%
+                input
+                  width: 100%
+
+@media screen and (max-width: 870px)
+  #mobile__menu
+    display: flex
+    flex-direction: row
+    align-items: flex-end
+    padding: 0 0 10px 0
+    .fa
+      font-size: 18px
+    span
+      font-size: 20px
+      margin: 0 0 0 10px
+
+
+  .menu
+    display: none
+    li
+      position: relative
+      flex-direction: column
+
+
+@media only screen and (max-width : 768px)
+  header
+    .container
+      .header__top
+        ul
+          li
+            font-size: 14px
+            padding: 10px 5px
+        p
+          font-size: 14px
+
+  .city__wrapper span:before
+    top: -2px
+
+  a.phone
+    padding: 0 0 0 23px
+    &:before
+      top: 0
+      height: 15px
+      -webkit-background-size: contain
+      background-size: contain
+
+  .main__banner
+    height: 300px
+
+  h2, h3
+    font-size: 24px
+    line-height: 30px
+
+  .filtr__wrapper
+    .container
+      flex-direction: column
+      .filtr__wrapper-left, .filtr__wrapper-right
+        width: 100%
+
+  .ban-max
+    height: 250px
+
+  .ban-min
+    height: 150px
+
+  .advantages
+    .container
+      .advantages__content
+        flex-direction: column
+        .item
+          width: 100%
+
+@media only screen and (max-width : 660px)
+  .logo
+    width: 200px
+
+
+@media screen and (max-width: 640px)
+  .offers
+    .container
+      .offers__content
+        .slider__item
+          flex-direction: column
+          align-items: center
+
+  .selection
+    .container
+      .text
+        .form
+          button
+            width: 100%
+            margin: 10px 0 0 0
+          input
+            margin: 0 0 0 10px
+            width: calc(100% - 70px)
+      .image
+        width: 100%
+
+  .slider .slider__item .product__item
+    display: none
+    &:first-child
+      display: flex
+
+  .advantages .container .advantages__content .item
+    align-items: center
+    p
+      text-align: center
+
+  .brands
+    .brands__content-slider
+      margin: 40px auto 0
+      a
+        max-width: 140px
+        margin: 0 auto
+        img
+          margin: 0 auto
+
+@media screen and (max-width: 560px)
+  .footer__reviews
+    margin: 0 0 20px 0
+
+  footer
+    .footer__top
+      .container
+        h2
+          font-size: 22px
+
+@media only screen and (max-width : 520px)
+  header
+    .container
+      .header__center
+        .cabinet__wrapper
+          .image
+            li
+              width: auto
+              padding: 7px 10px
+              height: auto
+              max-width: 25px
+              max-height: 30px
+              img
+                max-height: 30px
+            .drop__menu
+              min-width: 200px
+              left: auto
+              right: 0
+              top: 45px
+              h3
+                font-size: 18px
+                line-height: 22px
+              li
+                max-width: none
+                max-height: none
+                a
+                  width: 100%
+                  text-align: left
+          .text
+            display: none
+
+  .selection
+    .container
+      padding: 30px 30px 0
+
+@media only screen and (max-width : 480px)
+  header
+    .container
+      .header__top
+        ul
+          flex-wrap: wrap
+          justify-content: space-around
+
+  .slick-next
+    right: 30%
+
+  .slick-prev
+    left: 30%
+
+  .brands .brands__content-slider
+    padding: 0 20px
+    .slick-prev
+      left: 10px
+    .slick-next
+      right: 10px
+
+@media only screen and (max-width : 400px)
+  .logo
+    width: 150px
+
+  .form__search input
+    font-size: 16px
+
+
+@media only screen and (max-width : 768px)
+	/**/
+
+
+@media only screen and (max-width : 992px)
+	/**/
+
+
+@media only screen and (max-width : 1200px)
+	/**/
+
